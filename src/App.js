@@ -4,12 +4,16 @@ import './App.css';
 
 //components
 import MyNavbar from "./components/my-navbar/navbar.component";
+import MyCarousel from "./components/my-carousel/my-carousel.component";
+import TitleMessage from "./components/title-message/title-message.components";
 
 const App = () => {
   return (
     (<div >
       <MyNavbar />
-      My Portfolio
+      <MyCarousel />
+      <TitleMessage/>
+      
     </div>)
   );
 }
